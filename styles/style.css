@@ -129,6 +129,7 @@ article {
 }
 
 footer {
+  height: 100px;
   color: #e5e7eb;
   background-color: #1f2937;
   font-size: 18px;
