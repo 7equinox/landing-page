@@ -51,8 +51,6 @@ main {
 
 .main-container {
   width: 450px;
-
-  gap: 50px;
 }
 
 .main-heading {
@@ -147,8 +145,22 @@ article {
   margin-right: 25px;
 }
 
+aside {
+  min-height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .aside-container {
   background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 200px;
 }
 
 .aside-title {
