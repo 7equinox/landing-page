@@ -43,14 +43,16 @@ main {
   background-color: #1f2937;
 
   display: flex;
-  justify-content: center;
-  align-content: center;
+  flex: 1;
   justify-content: space-between;
+  align-items: center;
   padding: 150px 300px;
 }
 
 .main-container {
   width: 450px;
+
+  gap: 50px;
 }
 
 .main-heading {
@@ -126,7 +128,7 @@ article {
 }
 
 .article-container {
-  max-width: 41.02vw;
+  max-width: 788px;
 
   margin: auto;
 }
@@ -136,7 +138,6 @@ article {
   font-weight: light;
   font-style: italic;
   color: #1f2937;
-  
 }
 
 .quote-from {
@@ -175,6 +176,7 @@ footer {
   color: #e5e7eb;
   background-color: #1f2937;
   font-size: 18px;
+
   display: flex;
   justify-content: center;
   align-items: center;
