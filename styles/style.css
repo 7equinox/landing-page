@@ -14,14 +14,15 @@ header {
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 16px 300px;
+  justify-content: space-around;
+  padding: 16px 10px;
 }
 
 .header {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 900;
+  width: 575px;
 }
 
 ul {
@@ -31,6 +32,8 @@ ul {
 
   display: flex;
   gap: 24px;
+  flex-flow: flex-end wrap;
+  text-align: right;
 }
 
 a {
@@ -44,9 +47,11 @@ main {
 
   display: flex;
   flex: 1;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 150px 300px;
+  padding: 150px 10px;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .main-container {
@@ -103,6 +108,8 @@ section {
   display: flex;
   justify-content: center;
   gap: 52px;
+  flex-wrap: wrap;
+  padding: 0 10px;
 }
 
 .box {
@@ -127,8 +134,8 @@ article {
 
 .article-container {
   max-width: 788px;
-
   margin: auto;
+  padding: 0 10px;
 }
 
 .quote {
@@ -151,16 +158,21 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  padding: 0 10px;
 }
 
 .aside-container {
+  height: 150px;
+  width: 965px;
   background-color: #3882f6;
-  padding: 50px 100px;
   border-radius: 10px;
+  padding: 0 10px;
 
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 200px;
+  flex-wrap: wrap;
 }
 
 .aside-title {
